@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     pokemonList.forEach((p) => {
       let li = document.createElement('li');
-      li.innerHTML = p;
+      li.innerText = p;
       console.log(li);
       ul.appendChild(li);
     })
